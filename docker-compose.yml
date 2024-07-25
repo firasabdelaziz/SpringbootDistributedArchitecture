@@ -31,7 +31,7 @@ services:
 
   ms-customer:
     build:
-      context: ./Customer
+      context: ./customer
       dockerfile: Dockerfile
     ports:
       - "8889:8889"
